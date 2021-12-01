@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.table {
+  padding: 0% !important;
+  margin: 0% !important;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding: 150px;
+  align-items: center;
+}
+
+.card {
+  border-radius: 5px;
+  height: 450px;
+  text-align: center;
+}
+
+.star {
+  position: absolute;
+  bottom: 370px;
+  left: 80px;
+  margin: auto;
+  width: 100%;
+  height: 50px;
+  color: gold;
+  text-align: center;
+  z-index: 1;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding: 25px;
+  position: fixed;
+  top: 0;
+  left: 5%;
+  width: 100%;
+  z-index: 2;
+  background-color: white;
+}
+
+.favouritesContainer {
+  padding-bottom: 100px;
+}
+
+
+.tableContainer {
+  padding: 5px !important;
+}
+
+tr, td {
+  padding: 5px !important;
+  width: 100px;
+  height: auto;
+}
+
+#noResults {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 120vh;
+  font-size: 50px;
+  font-weight: lighter;
+  
+}
